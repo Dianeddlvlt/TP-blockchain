@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Instruction pour lancer l'app :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pour lancer l'application il faut executer dans un terminal les commandes : 
 
-## Available Scripts
+    cd mon-app
+    npm run start
 
-In the project directory, you can run:
+Descriptif de l'application et comment l'utiliser :
 
-### `npm start`
+Ce projet a pour objectif de permettre à un client de gérer facilement ses utilisateurs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La version actuelle permet de : 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1) Se connecter à metamask 
 
-### `npm test`
+    Pour cela il faut cliquer sur "Connect to metamask".
+    Un message s'affichera sous le boutton pour indiquer la connexion.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2) Se conneter au contrat de gestion des utilisateurs
 
-### `npm run build`
+    Pour cela il faut cliquer sur "Connect to contract".
+    Un message s'affichera sous le boutton pour indiquer la connexion.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3) Visualiser les utilisateurs enregistrés
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Pour cela il faut cliquer sur "See users".
+    Les utilisateurs enregistrés s'afficheront sous le boutton
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Par la suite, il pourrait être intéressant de proposer de nouvelles fonctions telles que l'ajout d'un nouvel utilisateur ou bien la suppression d'un utilisateur.
 
-### `npm run eject`
+En quoi la Blockchain est importante dans ce projet : 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+En offrant une base de données immuable la Blokchain garanti l'authenticité des informations, assure à l'utilisateur la sécurité de ses donnés.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Personnes ayant travailler sur ce projet :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Juliette Hoarau
+Diane de Dieuleveult
+Antoine Ruvicini
